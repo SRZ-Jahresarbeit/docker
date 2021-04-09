@@ -21,7 +21,11 @@ All relevent data is stored in the `data` directory.
 
 ## Testing
 
+### Mqtt
 To publish test data to the mqtt broker, you can use:
 ```
 mosquitto_pub -h localhost -p 1883 -t sensor/<sensorId> -m <value>
 ```
+
+### Swagger
+The SwaggerUI is available at [localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
