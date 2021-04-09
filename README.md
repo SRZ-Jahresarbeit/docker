@@ -1,0 +1,27 @@
+# docker
+
+## Deployment
+
+```
+git clone https://github.com/SRZ-Jahresarbeit/docker.git
+docker-compose up -d
+```
+
+No the backend is listening on port `8080` and the mqtt broker is
+listening in port `1883`.
+
+to shutdown run:
+```
+docker-compose down
+```
+
+## Persistance
+
+All relevent data is stored in the `data` directory.
+
+## Testing
+
+To publish test data to the mqtt broker, you can use:
+```
+mosquitto_pub -h localhost -p 1883 -t sensor/<sensorId> -m <value>
+```
