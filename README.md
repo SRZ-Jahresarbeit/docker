@@ -7,7 +7,7 @@ git clone https://github.com/SRZ-Jahresarbeit/docker.git
 docker-compose up -d
 ```
 
-No the backend is listening on port `8080` and the mqtt broker is
+Now the backend is listening on port `8080` and the mqtt broker is
 listening in port `1883`.
 
 to shutdown run:
