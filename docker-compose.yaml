@@ -57,6 +57,12 @@ services:
       - mosquitto
       - postgres
 
+  frontend:
+    image: ghcr.io/srz-jahresarbeit/frontend:edge
+    ports:
+      - 8081:8080
+    restart: always
+
 networks:
   influx:
   mosquitto:
