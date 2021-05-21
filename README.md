@@ -9,7 +9,8 @@ https://docs.docker.com/get-docker/
 <br>
 
 ```
-git clone https://github.com/SRZ-Jahresarbeit/docker.git
+git clone https://github.com/SRZ-Jahresarbeit/docker.git 
+cd docker
 docker-compose up -d
 ```
 
